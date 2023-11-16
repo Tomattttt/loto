@@ -19,8 +19,12 @@
 1 тест. 
 ![лото7](https://github.com/Tomattttt/loto/assets/146252320/e501899d-05a9-499f-b803-4112a756a115)
 
+
+
 2 тест.
 ![лото13](https://github.com/Tomattttt/loto/assets/146252320/72693536-0a67-40f8-a7de-4df92f13651a)
+
+
 
 3 тест. 
 ![лото125](https://github.com/Tomattttt/loto/assets/146252320/75dfa976-217b-41f4-9ad7-df3ebecfc2f8)
