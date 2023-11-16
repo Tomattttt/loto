@@ -1,5 +1,5 @@
-# Object file
-*.o
+import random
+import logging
 
-# Ada Library Information
-*.ali
+# Настройка логгера
+logging.basicConfig(filename='bingo_log.log', level=logging.INFO)
