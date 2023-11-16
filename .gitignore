@@ -14,3 +14,20 @@ def dannie():
                 print("Пожалуйста, введите натуральное число.")
         except ValueError:
             print("Пожалуйста, введите целое число.")
+
+def main():
+    N = dannie()  # Получаем количество бочонков от пользователя
+    logging.info(f"Введено количество бочонков: {N}")
+
+    nomer = list(range(1, N + 1))  # Создаем список бочонков от 1 до N
+    random.shuffle(nomer)  # Перемешиваем список
+    logging.info(f"Перемешанный список бочонков: {nomer}")
+
+    while nomer:
+        input("Нажмите Enter, чтобы вытащить очередной бочонок ")
+        vitashit = nomer.pop(0)
+        print("Вытащен бочонок:", vitashit)  # Выводим и удаляем первый элемент из списка
+        logging.info(f"Вытащен бочонок: {vitashit}")
+
+if __name__ == "__main__":
+    main()
